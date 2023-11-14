@@ -18,4 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector('header').classList.remove('header--scrolling')
     }
   })
+
+  const menuItems = document.querySelectorAll('.header__link')
+  menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+      removeMenuItemsActive(menuItems, 'header__link--active')
+      item.classList.add('header__link--active')
+    })
+  })
+
+  const removeMenuItemsActive = (items, _class) => {
+    items.forEach(item => {
+      item.classList.remove(_class)
+    })
+  }
 })
