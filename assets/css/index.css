@@ -1,0 +1,33 @@
+@import './fonts/index.fonts.css';
+@import './header.css';
+@import './banner.css';
+
+/* Set up initial values */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Reusable classes */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}

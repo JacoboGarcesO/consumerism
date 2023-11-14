@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
-  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <title>FP - EF</title>
 </head>
+
 <body>
-  
+  <header class="header">
+    <section class="container header__container">
+      <a href="#">
+        <i class="header__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clover" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 10l-3.397 -3.44a2.104 2.104 0 0 1 0 -2.95a2.04 2.04 0 0 1 2.912 0l.485 .39l.485 -.39a2.04 2.04 0 0 1 2.912 0a2.104 2.104 0 0 1 0 2.95l-3.397 3.44z"></path>
+            <path d="M12 14l-3.397 3.44a2.104 2.104 0 0 0 0 2.95a2.04 2.04 0 0 0 2.912 0l.485 -.39l.485 .39a2.04 2.04 0 0 0 2.912 0a2.104 2.104 0 0 0 0 -2.95l-3.397 -3.44z"></path>
+            <path d="M14 12l3.44 -3.397a2.104 2.104 0 0 1 2.95 0a2.04 2.04 0 0 1 0 2.912l-.39 .485l.39 .485a2.04 2.04 0 0 1 0 2.912a2.104 2.104 0 0 1 -2.95 0l-3.44 -3.397z"></path>
+            <path d="M10 12l-3.44 -3.397a2.104 2.104 0 0 0 -2.95 0a2.04 2.04 0 0 0 0 2.912l.39 .485l-.39 .485a2.04 2.04 0 0 0 0 2.912a2.104 2.104 0 0 0 2.95 0l3.44 -3.397z"></path>
+         </svg>
+        </i>
+      </a>
+
+      <nav>
+        <i class="header__logo header__open">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-2" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M14 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+         </svg>
+        </i>
+        <ul class="header__menu">
+          <li class="header__close">
+            <i class="header__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+             </svg>
+            </i>
+          </li>
+          <li><a class="header__link header__link--active" href="#">Home</a></li>
+          <li><a class="header__link" href="#">Implications</a></li>
+          <li><a class="header__link" href="#">Impacts</a></li>
+          <li><a class="header__link" href="#">Mitigants</a></li>
+          <li><a class="header__link" href="#">Testimonials</a></li>
+          <li><a class="header__link" href="#">FAQ</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <section class="container">
+      <section class="banner">
+        <h1 class="banner__title">The Landing Page</h1>
+        <figure class="banner__image">
+          <img src="./assets/images/banner.jpg" alt="Banner Nature Image">
+        </figure>
+      </section>
+
+      <section class="implicants"></section>
+      <section class="impacts"></section>
+      <section class="testimonials"></section>
+    </section>
+  </main>
+
+  <footer>
+    <section class="container"></section>
+  </footer>
+  <script src="./assets/js/index.js"></script>
 </body>
+
 </html>
