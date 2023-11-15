@@ -20,10 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
   const menuItems = document.querySelectorAll('.header__link')
+
   menuItems.forEach(item => {
     item.addEventListener('click', () => {
       removeMenuItemsActive(menuItems, 'header__link--active')
       item.classList.add('header__link--active')
+      menu.classList.remove('header__menu--visible')
     })
   })
 

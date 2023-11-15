@@ -25,3 +25,10 @@
 .footer__link:hover {
   color: #c2c2c2;
 }
+
+@media screen and (width <=420px) {
+  .footer__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
