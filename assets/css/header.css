@@ -33,10 +33,12 @@
   color: #868686;
   transition: 0.3s;
   font-weight: 500;
+  border-bottom: 1px solid #ffffff;
 }
 
 .header__link:hover, .header__link--active {
   color: #292929;
+  border-bottom: 1px solid #292929;
 }
 
 .header__open, .header__close {

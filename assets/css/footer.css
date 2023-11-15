@@ -1,0 +1,27 @@
+.footer {
+  background-color: #222;
+  padding: 40px;
+  color: #FFF;
+  margin-top: 100px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__link {
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  color: #c2c2c2;
+}

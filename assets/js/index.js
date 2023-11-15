@@ -32,4 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
       item.classList.remove(_class)
     })
   }
+
+  document.getElementById('copyright').innerText = `© Jacobo Garcés. ${new Date().getFullYear().toString()}`
 })

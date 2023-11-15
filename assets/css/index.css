@@ -1,6 +1,7 @@
 @import './fonts/index.fonts.css';
 @import './header.css';
 @import './banner.css';
+@import './footer.css';
 
 /* Set up initial values */
 * {
