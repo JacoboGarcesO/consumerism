@@ -51,4 +51,5 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollReveal.reveal('.implications__item', { origin: 'left' })
   scrollReveal.reveal('.impacts__item')
   scrollReveal.reveal('.mitigants__item')
+  scrollReveal.reveal('.testimonials__column')
 })

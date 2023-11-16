@@ -47,6 +47,15 @@
   cursor: pointer;
 }
 
+.banner__button a {
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.banner__button a:hover {
+  color: #000;
+}
+
 .banner__button:hover {
   background-color: #FFF;
   color: #000;
