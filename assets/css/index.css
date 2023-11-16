@@ -2,6 +2,7 @@
 @import './header.css';
 @import './banner.css';
 @import './footer.css';
+@import './implicants.css';
 
 /* Set up initial values */
 * {
