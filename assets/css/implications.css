@@ -59,7 +59,7 @@
 
 @media screen and (width <=720px) {
   .implications {
-    padding: 20px;
+    padding: 50px 20px;
   }
 
   .implications__item {

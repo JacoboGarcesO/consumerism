@@ -3,6 +3,9 @@
 @import './banner.css';
 @import './footer.css';
 @import './implications.css';
+@import './impacts.css';
+@import './mitigants.css';
+@import './testimonials.css';
 
 /* Set up initial values */
 * {
