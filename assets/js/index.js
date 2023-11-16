@@ -49,5 +49,4 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollReveal.reveal('.banner__subtitle')
   scrollReveal.reveal('.banner__container-button')
   scrollReveal.reveal('.implications__item', { origin: 'left' })
-  scrollReveal.reveal('.implications__item--reverse', { origin: 'right' })
 })
