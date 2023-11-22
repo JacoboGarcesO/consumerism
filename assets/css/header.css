@@ -47,7 +47,7 @@
 
 @media screen and (width <= 720px) {
   .header__menu {
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 0;
     height: 100vh;
