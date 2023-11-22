@@ -11,14 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     menu.classList.remove('header__menu--visible')
   })
 
-  window.addEventListener('scroll', () => {
-    if (this.scrollY > 50) {
-      document.querySelector('header').classList.add('header--scrolling')
-    } else {
-      document.querySelector('header').classList.remove('header--scrolling')
-    }
-  })
-
   const menuItems = document.querySelectorAll('.header__link')
 
   menuItems.forEach(item => {
@@ -36,20 +28,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.getElementById('copyright').innerText = `© Jacobo Garcés. ${new Date().getFullYear().toString()}`
-
-  const scrollReveal = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 1700,
-    delay: 400
-  })
-
-  scrollReveal.reveal('.banner__title')
-  scrollReveal.reveal('.banner__image', { delay: 600 })
-  scrollReveal.reveal('.banner__subtitle')
-  scrollReveal.reveal('.banner__container-button')
-  scrollReveal.reveal('.implications__item', { origin: 'left' })
-  scrollReveal.reveal('.impacts__item')
-  scrollReveal.reveal('.mitigants__item')
-  scrollReveal.reveal('.testimonials__column')
 })

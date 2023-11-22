@@ -6,6 +6,7 @@
 @import './impacts.css';
 @import './mitigants.css';
 @import './testimonials.css';
+@import './animations.css';
 
 /* Set up initial values */
 * {
@@ -21,6 +22,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 a {

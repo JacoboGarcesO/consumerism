@@ -48,3 +48,13 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+@media screen and (width <=720px) {
+  .impacts__content, .impacts__content--reversed {
+    grid-template-columns: 1fr;
+  }
+
+  .impacts {
+    padding: 20px;
+  }
+}
